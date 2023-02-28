@@ -8,8 +8,8 @@ spec:
     type: kustomize
     properties:
       repoType: git
-      url: https://github.com/FogDong/KubeVela-GitOps-Infra-Demo
-      secretRef: git-secret
+      url: https://github.com/yangshun2005/KubeVela-GitOps-Infra-Demo
+      #secretRef: git-secret
       pullInterval: 10m
       git:
         branch: main
